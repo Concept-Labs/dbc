@@ -1,0 +1,11 @@
+{
+    "di": {
+        "package": {
+            "concept-labs/db-connection": {
+                "preference": {
+                    }
+                }
+            }
+        }
+    }
+}

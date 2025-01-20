@@ -1,0 +1,32 @@
+{
+    "name": "concept-labs/db-connection",
+    "type": "library",
+    "description": "(C)oncept-Labs DB Connection",
+    "keywords": ["php","db", "connection"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mtr",
+            "email": "info.concept.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "concept-labs/config": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\DBC\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "concept": {
+            "include": "concept.json"
+        }
+    }
+
+}
