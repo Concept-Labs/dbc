@@ -1,5 +1,5 @@
 {
-    "name": "concept-labs/db-connection",
+    "name": "concept-labs/dbc",
     "type": "library",
     "description": "(C)oncept-Labs DB Connection",
     "keywords": ["php","db", "connection"],
