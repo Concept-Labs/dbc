@@ -1,8 +1,13 @@
 {
-    "di": {
+    "singularity": {
         "package": {
-            "concept-labs/db-connection": {
+            "concept-labs/dbc": {
                 "preference": {
+                    "Concept\\DBC\\ConnectionInterface": {
+                        "class": "Concept\\DBC\\Connection"
+                    },
+                    "Concept\\DBC\\Result\\ResultFactoryInterface": {
+                        "class": "Concept\\DBC\\Result\\ResultFactory"
                     }
                 }
             }
